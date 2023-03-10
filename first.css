@@ -1,0 +1,4 @@
+body{
+    background-image: src("second.jpg");height: 100%; width: 100%;
+    background-attachment: fixed;
+}

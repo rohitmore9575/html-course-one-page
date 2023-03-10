@@ -1,0 +1,64 @@
+p{
+    color: aqua;
+    background-color: black;
+  
+}
+.p1{
+    color: chartreuse;
+    opacity: 0.5;
+
+}
+.rohit{
+   
+    color: red;
+    font-size: x-large;
+    font-style: italic;
+}
+body{
+   
+    animation-name: bgchange;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes bgchange{
+    0%{background-image: url(first.jpg);}
+    20%{background-image: url(second.jpg);}
+    40%{background-image: url(third.jpg);}
+    60%{background-image: url(four.jpg);}
+    80%{background-image: url(five.jpg);}
+    100%{background-image: url(six.jpg);}
+}
+.paras{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    color: black;
+    
+}
+#logo{
+    height: 300px;
+    width: 350px;
+    opacity: 0.7;
+    transition: 0.7s ease-out;
+    border: 5px solid crimson;
+    border-radius: 15px;
+    border-style: dotted;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#logo:hover{
+    height: 400px;
+    width: 500px;
+    opacity: 1;
+    border-style: dashed;
+    margin-top: 40px;
+    margin-left: 30px;
+
+    
+
+}
+
